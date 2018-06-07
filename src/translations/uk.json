@@ -1,0 +1,9 @@
+{
+    "counter.start": "РОЗПОЧНЕТЬСЯ ЧЕРЕЗ",
+    "counter.seconds": "{currentSeconds, plural, one {СЕКУНДА} few {СЕКУНДИ} many {СЕКУНД} other {СЕКУНДА}}",
+    "counter.minutes": "{currentMinutes, plural, one {ХВИЛИНА} few {ХВИЛИНИ} many {ХВИЛИН} other {ХВИЛИНИ}}",
+    "counter.hours": "{currentHours, plural, one {ГОДИНА} few {ГОДИНИ} many {ГОДИН} other {ГОДИНИ}}",
+    "counter.days": "{currentDays, plural, one {ДЕНЬ} few {ДНІ} many {ДНІВ} other {ДНЯ}}",
+    "counter.months": "{currentMonths, plural, one {МІСЯЦЬ} few {МІСЯЦІ} many {МІСЯЦІВ} other {МІСЯЦЯ}}",
+    "counter.years": "{currentYears, plural, one {РІК} few {РОКИ} many {РОКІВ} other {РОКА}}"
+}

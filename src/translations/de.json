@@ -1,0 +1,9 @@
+{
+    "counter.start": "BEGINNT IN",
+    "counter.seconds": "{currentSeconds, plural, one {SEKUND} other {SEKUNDEN}}",
+    "counter.minutes": "{currentMinutes, plural, one {MINUTE} other {MINUTEN}}",
+    "counter.hours": "{currentHours, plural, one {STUNDE} other {STUNDEN}}",
+    "counter.days": "{currentDays, plural, one {TAG} other {TAGE}}",
+    "counter.months": "{currentMonths, plural, one {MONAT} other {MONATE}}",
+    "counter.years": "{currentYears, plural, one {JAHR} other {JAHRE}}"
+}
