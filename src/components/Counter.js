@@ -52,7 +52,7 @@ const messages = defineMessages({
     }
   });
 
-class CounterContainer extends Component {
+class Counter extends Component {
     state = { 
         timeLeft: {
             years: 0,
@@ -183,10 +183,10 @@ class CounterContainer extends Component {
         const monthsMessage = formatMessage(messages.months, {currentMonths:months});
         const yearsMessage = formatMessage(messages.years, {currentYears:years});
 
-
         return (
             <CounterWrapper>
                 <CounterHeader>{startMessage}</CounterHeader>
+                
                 { this.state.isYearSelected 
                     ? <MeasureUnit
                         unitType={yearsMessage}
@@ -222,4 +222,4 @@ class CounterContainer extends Component {
         )
     }
 }
-export default injectIntl(CounterContainer);
+export default injectIntl(Counter);

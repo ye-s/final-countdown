@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Counter from './components/CounterContainer'
+import Counter from './components/Counter'
 import { IntlProvider, addLocaleData } from 'react-intl';
 import enLocaleData from "react-intl/locale-data/en";
 import deLocaleData from "react-intl/locale-data/de";
@@ -83,12 +83,12 @@ class App extends Component {
                     <h1 className="App-title">Welcome to React Time Counter</h1>
                 </header>
                 <p className="App-intro">
-                    Default counter is set for New Year (Sep 01 2019 11:31:48).
+                    Default counter time is set to "Sep 01 2019 11:31:48".
                 </p>
 
                 <p className="App-intro">
                     Current locale is <Locale>{this.state.locale}</Locale>.
-                    You can pick language for counter (EN, DE, UA)".
+                    You can pick language for counter (EN, DE, UK)".
                 </p>
 
                 <div>
@@ -99,7 +99,7 @@ class App extends Component {
                         DE
                     </Button>
                     <Button onClick={() => this.changeLocale('uk')}>
-                        UA
+                        UK
                     </Button>
                 </div>
 
