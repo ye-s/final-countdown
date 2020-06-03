@@ -46,7 +46,7 @@ const Label = style.label`
 class App extends Component {
     
     state = {
-        finalTime: 'Sep 01 2019 11:31:48',
+        finalTime: 'Aug 18 2021 12:25:00',
         locale: 'en',
         additionalUnits: {
             isMonthSelected: false,
@@ -83,7 +83,7 @@ class App extends Component {
                     <h1 className="App-title">Welcome to React Time Counter</h1>
                 </header>
                 <p className="App-intro">
-                    Default counter time is set to "Sep 01 2019 11:31:48".
+                    Default counter time is set to "Aug 18 2021 12:25:00".
                 </p>
 
                 <p className="App-intro">
@@ -104,7 +104,7 @@ class App extends Component {
                 </div>
 
                 <p className="App-intro">
-                    You can pick any date and time in future for example "Aug 18 2018 10:25:00".
+                    You can pick any date and time in future for example "Aug 18 2020 10:25:00".
                 </p>
                 <input type="text" name="finalDate" onChange={event => this.changeDate(event)}/>
 
